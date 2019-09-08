@@ -23,8 +23,10 @@ def find_pairs_of_numbers(num_list,n):
                 if x!=y:
                     num_list.remove(y)
                     count+=1
+                    print(x,y)
+                    
     return count    
 
-num_list=[1, 2, 4, 5, 6]
-n=6
+num_list=[1, 3, 2, 2, 6]
+n=4
 print(find_pairs_of_numbers(num_list,n))
